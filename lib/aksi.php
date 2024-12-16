@@ -11,6 +11,10 @@ switch($aksi){
     case 'pesan':
         include 'main/pesan.php';
     break;
+    case 'detail':
+        include 'main/detail.php';
+    break;
+    
     
     default:
         include 'main/beranda.php';
